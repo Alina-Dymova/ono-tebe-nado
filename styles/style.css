@@ -22,9 +22,10 @@
 }
 .header__menu-list {
   list-style-type: circle;
+  display: flex;
+  flex-direction: row;
 }
 .header__menu-list li {
-  float: left;
   margin-right: 25px;
 }
 .header__menu-link {
@@ -72,7 +73,7 @@
   letter-spacing: 30px;
   position: relative;
   z-index: 6;
-  padding-top: 170px;
+  padding-top: 165px;
   padding-left: 50px;
   padding-right: 25px;
 }
@@ -99,13 +100,14 @@
   margin: auto;
   width: 100%;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
+  padding-right: 24px;
 }
 .aligned-text_right {
   display: block;
   text-align: right;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .no-letter-spasing {
   letter-spacing: 0;
@@ -114,7 +116,7 @@
   display: flex;
   justify-content: right;
   padding-bottom: 50px;
-  margin-top: 135px;
+  margin-top: 138px;
   z-index: 6;
   position: relative;
 }
@@ -130,6 +132,7 @@
   text-transform: uppercase;
   word-spacing: 1.5ex;
   align-self: center;
+  padding-right: 25px;
 }
 .cover__button {
   color: #fff;
@@ -191,8 +194,6 @@
   height: 100%;
 }
 .card__style {
-  background-position: center;
-  background-size: 100%;
   width: 430px;
   height: 450px;
   flex-shrink: 0;
