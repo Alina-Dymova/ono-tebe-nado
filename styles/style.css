@@ -288,10 +288,12 @@
   margin-top: 180px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 90px;
 }
 .footer__menu-list {
   list-style-type: none;
   text-align: center;
+  
 }
 .footer__social-list-item {
   display: flex;
